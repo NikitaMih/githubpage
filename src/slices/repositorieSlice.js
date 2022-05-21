@@ -1,6 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
 import axios from 'axios';
-import { baseUrl } from '../config/js';
 
 const initialState = {
     repositorie: "",
@@ -24,14 +23,14 @@ export const selectRepositorie = (state) => state.repositorie.repositorie;
 
 // Thunk actions 
 export const search = (repositorie) => {
-  return async (dispatch) => {
-    try{
-      const res = await axios.get(baseUrl + `/profile?login=${login}`);
-      password === res.data[0].password ? dispatch(SetHistory()) : dispatch(SetError(true));
-    } catch {
-      dispatch(SetError(true));
-    }
-  }
+//   return async (dispatch) => {
+//     try{
+//       const res = await axios.get(baseUrl + `/profile?login=${login}`);
+//       password === res.data[0].password ? dispatch(SetHistory()) : dispatch(SetError(true));
+//     } catch {
+//       dispatch(SetError(true));
+//     }
+//   }
 }
 
-export default loginSlice.reducer;
+export default repositorieSlice.reducer;

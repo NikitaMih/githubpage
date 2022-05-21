@@ -9,11 +9,8 @@ import {
   PURGE,
   REGISTER, } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import loginReducer from './slices/loginSlice';
-import portfolioSlice from './slices/portfolioSlice'
-import walletReducer from './slices/walletSlice';
-import tradeReducer from './slices/tradeSlice';
-import profileReducer from './slices/profileSlice';
+import repositorieReducer from './slices/repositorieSlice';
+
 
 const rootReducer = combineReducers({
   repositorie: repositorieReducer,
