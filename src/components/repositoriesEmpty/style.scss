@@ -1,0 +1,22 @@
+.repository-empty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+
+    &__icon{
+        margin: 0 auto;
+    }
+
+    &__title{
+        margin: 48px 0;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 140%;
+        text-align: center;
+        color: #808080;
+    }
+}
