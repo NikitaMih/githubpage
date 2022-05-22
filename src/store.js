@@ -9,11 +9,11 @@ import {
   PURGE,
   REGISTER, } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
-import repositorieReducer from './slices/repositorieSlice';
+import repositoryReducer from './slices/repositorySlice';
 
 
 const rootReducer = combineReducers({
-  repositorie: repositorieReducer,
+  repository: repositoryReducer,
 });
 
 const persistConfig = {

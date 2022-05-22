@@ -1,0 +1,26 @@
+.repositoryList{
+    display: flex;
+    flex-direction: column;
+
+    &__title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 130%;
+        color: #000000;
+    }
+}
+
+.pages{
+    position: fixed;
+    bottom: 5px;
+    right: 156px;
+    display: flex;
+    justify-content: flex-end;
+    color: #808080;
+
+    &__count{
+        align-self: center;
+    }
+}

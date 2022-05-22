@@ -1,9 +1,28 @@
 .header{
-    padding: 2em;
+    display: flex;
+    padding: 16px 0 16px 41px;
     background-color: #0064EB;
 }
 
 .find{
     border-radius: 6px;
     background-color: #FFFFFF;
+    width: 30%;
+    margin: 0 20px;
+    padding: 10px 20px;
+
+    &__input{
+        border: none;
+        outline:none;
+        margin: 0 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.01em;
+        color: #808080;
+    }
+    &__input:focus {
+        color: #000000;
+    }
 }
